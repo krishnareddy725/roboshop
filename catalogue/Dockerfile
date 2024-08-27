@@ -1,6 +1,6 @@
 FROM node:18
 EXPOSE 8080
-WORKDIR /opt/server
+WORKDIR /opt/server/
 COPY package.json /opt/server/
 ENV MONGO=true
 COPY server.js /opt/server/
